@@ -24,7 +24,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Install Blender
-        run: snap install blender
+        run: sudo snap install blender
     
       # Runs a single command using the runners shell
       - name: Run a one-line script
