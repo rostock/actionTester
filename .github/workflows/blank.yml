@@ -36,7 +36,7 @@ jobs:
         run: sudo blender ./suzanne.blend --background --python blenderExport.py
        # create zip
       - name: Create Zip
-        run: zip obj.zip -r tmp/ 
+        run: zip obj.zip -r text.obj 
        # Create release
       - name: Create Release
         id: create_release
