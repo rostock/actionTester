@@ -33,3 +33,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: blender --help
+        
+      # Runs a single command using the runners shell
+      - name: export as Obj
+        run: sudo blender suzanne.blend --background --python blenderExport.py
