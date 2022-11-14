@@ -36,4 +36,4 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: export as Obj
-        run: sudo blender suzanne.blend --background --python blenderExport.py
+        run: sudo blender ./suzanne.blend --background --python blenderExport.py
